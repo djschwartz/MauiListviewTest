@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiListviewTest.MainPage">
+            
+            <Button
+                x:Name="CounterBtn"
+                VerticalOptions="Start"
+                Text="Show me the list" 
+                Command="{Binding ShowListCommand}"
+                HorizontalOptions="Fill" />
+
+</ContentPage>
